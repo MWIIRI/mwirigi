@@ -1,13 +1,19 @@
-p{
+.nav{
+    background-color: black;
+    width: 2000px;
+}
+.nav-item{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-link{
+    list-style-type: none;
+    justify-content: space-around;
     color: white;
 }
-.text-center{
-    text-align: center;
-}
-.mb{
-    color:blue;
-    font-family: 'Courier New', Courier, monospace;
-}
-body{
-    background-color:blue;
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
